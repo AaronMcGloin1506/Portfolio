@@ -1,0 +1,38 @@
+body {
+  color: rgb(185, 178, 178) !important ;
+  font-family: 'Roboto', sans-serif !important;
+  background-image: url("./assets/backgroundImage.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 650px;
+  
+}
+
+
+.homepage{
+  color: rgb(185, 178, 178) !important ;
+  height: 100%;
+}
+
+.homepage .row {
+  display: flex;
+  margin-top: 200px;
+}
+
+.title {
+  border-bottom: 2px solid rgb(113, 149, 247);
+  width: 120px;
+  margin-left: 400px;
+}
+.aboutContainer{
+  color: rgb(185, 178, 178) !important;
+  height: 500px;
+  width: 400px;
+}
+
+.profilePic{  
+  height: 320px;
+  width: 280px;
+  border-radius: 300px;
+  box-shadow: cyan;
+}
