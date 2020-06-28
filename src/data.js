@@ -42,3 +42,29 @@ export const experienceContent = {
     jobDescription_3:"Developing small applications of use with Galileo boards, LEDs and radio sender and receivers for 3rd year IT students that try and replicate the applications, organize lab slots and supervised throughout the sessions"
 };
 
+export const portfolioContent = [
+    {
+        id:"001",
+        img:"img/PhoneStore.png",
+        title:"title",
+        description:"description"
+    },
+    {
+        id:"002",
+        img:"img/Jammming.png",
+        title:"title",
+        description:"description"
+    },
+    {
+        id:"003",
+        img:"img/Ravenous.png",
+        title:"title",
+        description:"description"
+    },
+    {
+        id:"004",
+        img:"img/Jammming.png",
+        title:"title",
+        description:"description"
+    }
+]

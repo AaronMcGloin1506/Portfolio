@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { aboutContent, educationContent, experienceContent} from './data.js';
+import { aboutContent, educationContent, experienceContent, portfolioContent} from './data.js';
 
 
 const InfoContext = React.createContext();
@@ -11,7 +11,8 @@ class InfoProvider extends Component {
     state={
         about: aboutContent,
         education: educationContent,
-        experience: experienceContent
+        experience: experienceContent,
+        portfolio: portfolioContent
     }
     render() {
         return (
