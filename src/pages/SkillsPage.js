@@ -3,9 +3,9 @@ import React, { Component } from 'react'
 export default class SkillsPage extends Component {
     render() {
         return (
-            <h1>
-                This is the Skills page
-            </h1>
+            <div className="mainContainer mx-auto">
+                <h1>Skills</h1>
+            </div>
         )
     }
 }

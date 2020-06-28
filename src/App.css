@@ -4,26 +4,29 @@ body {
   background-image: url("./assets/backgroundImage.jpg");
   background-size: cover;
   background-position: center;
-  min-height: 650px;
+  height: 650px;
   
 }
 
-
-.homepage{
+.mainContainer{
   color: rgb(185, 178, 178) !important ;
-  height: 100%;
+  margin-top: 50px;
+  margin-left: 40px;
+  width: 90%;
+  height: 530px;
+  overflow: scroll;
 }
 
-.homepage .row {
-  display: flex;
+
+.rowHome{
   margin-top: 200px;
 }
 
+
 .title {
   border-bottom: 2px solid rgb(113, 149, 247);
-  width: 120px;
-  margin-left: 400px;
 }
+
 .aboutContainer{
   color: rgb(185, 178, 178) !important;
   height: 500px;
@@ -35,4 +38,12 @@ body {
   width: 280px;
   border-radius: 300px;
   box-shadow: cyan;
+}
+
+.educationTimeline{
+  margin-top: 50px;
+}
+
+.blueFont{
+  color: rgb(33, 150, 243) !important;
 }

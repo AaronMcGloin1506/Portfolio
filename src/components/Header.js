@@ -8,7 +8,8 @@ import styled from 'styled-components';
 
 import HomePage from '../pages/HomePage.js';
 import AboutPage from '../pages/AboutPage.js';
-import CvPage from '../pages/CvPage.js';
+import EducationPage from '../pages/EducationPage.js';
+import ExperiencePage from '../pages/ExperiencePage.js';
 import PortfolioPage from '../pages/PortfolioPage.js';
 import SkillsPage from '../pages/SkillsPage.js';
 import ContactPage from '../pages/ContactPage.js';
@@ -27,7 +28,8 @@ export default class Header extends Component {
                         <Nav className="ml-auto">
                             <Link className="nav-link" to="/">Home</Link>
                             <Link className="nav-link" to="/about">About</Link>
-                            <Link className="nav-link" to="/cv">CV</Link>
+                            <Link className="nav-link" to="/education">Education</Link>
+                            <Link className="nav-link" to="/experience">Experience</Link>
                             <Link className="nav-link" to="/portfolio">Portfolio</Link>
                             <Link className="nav-link" to="/skills">Skills</Link>
                             <Link className="nav-link" to="/contact">Contact</Link>
@@ -37,7 +39,8 @@ export default class Header extends Component {
                 
                 <Route exact path="/" render={() => <HomePage />} /> 
                 <Route path="/about" render={() => <AboutPage />} /> 
-                <Route path="/cv" render={() => <CvPage />} /> 
+                <Route path="/education" render={() => <EducationPage />} /> 
+                <Route path="/experience" render={() => <ExperiencePage />} /> 
                 <Route path="/portfolio" render={() => <PortfolioPage />} /> 
                 <Route path="/skills" render={() => <SkillsPage />} /> 
                 <Route path="/contact" render={() => <ContactPage />} /> 
