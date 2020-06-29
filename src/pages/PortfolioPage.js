@@ -17,19 +17,28 @@ export default class PortfolioPage extends Component {
                             <h1 className="title">Portfolio</h1>
                         </div>
                     </div>
-                    <InfoConsumer>
-                    {(items) => {
-                        return items.portfolio.map((item)=>{
-                            return (
-                                <Container fluid={true}>
-                                    <Row className="justify-content-around ">
-                                        <PortfolioItem key={item.id} item={item}/>
-                                    </Row>
-                                </Container>
-                            )
-                        })
-                    }}
-                </InfoConsumer>
+
+                    <div className="row">
+                        <div className="col-10 mx-auto text-center p-5">
+                            <h4 className="">Click on projects for details</h4>
+                        </div>
+                    </div>
+
+                    <Container fluid={true}>
+                        <Row className="justify-content-around">
+                            <InfoConsumer>
+
+                                {(items) => {
+                                    return items.portfolio.map((item)=>{
+                                        return (
+                                            <PortfolioItem key={item.id} item={item} handleDetail={items.handleDetail} openModal={items.openModal}/>
+                                        )
+                                    })
+                                }}
+                            </InfoConsumer>   
+                        </Row>
+                    </Container>
+                    
                 </div>
                 
             </React.Fragment>

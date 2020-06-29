@@ -46,8 +46,10 @@ export const portfolioContent = [
     {
         id:"001",
         img:"img/PhoneStore.png",
-        title:"title",
-        description:"description"
+        imgFull:"img/FullScreenStore.png",
+        title:"Phone Store Ecommerce",
+        descriptionShort:"description",
+        descriptionFull:"description",
     },
     {
         id:"002",
@@ -68,3 +70,13 @@ export const portfolioContent = [
         description:"description"
     }
 ]
+
+export const portfolioDetail = {
+    id:"001",
+    img:"img/PhoneStore.png",
+    imgFull:"img/FullScreenStore.png",
+    title:"Phone Store Ecommerce",
+    descriptionShort:"description",
+    descriptionFull:"In Adobe InDesign, the lines of type are set, by default, in the best interest of the entire paragraph. As you type or edit a paragraph, InDesign adjusts the line breaks a paragraph at a time, which explains why you may notice text reflowing above the line you are editing. It’s unnerving to see until you understand that you are watching the Adobe Paragraph Composer in action. By using the Adobe Paragraph Composer, you are just about guaranteed to have better word spacing, hyphenation and line breaks than if you turned it off. Take a look at the two paragraphs shown below. Both of the body paragraphs are set to the same typeface, size, style and hyphenation settings. The only difference between them is the composer used to set the line breaks. The one on the left is set with the default Paragraph Composer on, the one on the right is set to the Single-Line Composer. Which one do you think looks better?",
+}
+    
