@@ -6,7 +6,7 @@ export default class Modal extends Component {
         return (
             <InfoConsumer>
                 {(value)=>{
-                    const { id, imgFull, title , descriptionFull } = value.detailProject
+                    const { id, imgFull, title , descriptionFull, link } = value.detailProject
                     const { modalOpen } = value;
         
                     if(!modalOpen){
@@ -23,8 +23,11 @@ export default class Modal extends Component {
                                         </div>
                                         <div className="col-7 mx-auto col-md-6 my-5">
                                             <p>{descriptionFull}</p>
+                                            
                                             <button type="button" class="btn btn-outline-primary mx-2" onClick={()=>{value.closeModal()}}>Back</button>
-                                            <button type="button" class="btn btn-outline-primary" onClick={()=>{value.closeModal()}}>View Website</button>
+                                            <a href={link} target="_blank">
+                                                <button type="button" class="btn btn-outline-primary" onClick={()=>{value.closeModal()}}>View Website</button>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>

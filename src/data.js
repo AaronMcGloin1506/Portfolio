@@ -47,27 +47,54 @@ export const portfolioContent = [
         id:"001",
         img:"img/PhoneStore.png",
         imgFull:"img/FullScreenStore.png",
-        title:"Phone Store Ecommerce",
-        descriptionShort:"description",
-        descriptionFull:"description",
+        title:"Phone Store E-commerce",
+        link:"http://phonestore.surge.sh/",
+        descriptionFull:"This project is a sample e-commerce website that can be a stand alone online shop or incorporated into a website. This website is completely front end and the items for the store are built into the store as a data.js file. When designing this ecommerce site I designed it around using context api this prevents prop drilling. This was the first project I designed using a context api and I found it very useful and kept my code neat and easy to understand. This website definitely was a turning point, the react library became clearer and the development process became easier. One problem I encountered with this project was when the context api was using the information in data.js it was not copying the data but referencing so when data would be altered it would be altered right back to the data.js. This was a tricky one to figure out but eventually through designing methods to copy the data the lifecycle method it was fixed. This project is still in construction as I am going to hook it up with paypal so it is fully functional.",
     },
     {
         id:"002",
         img:"img/Jammming.png",
-        title:"title",
-        description:"description"
+        imgFull:"img/FullScreenJammming.png",
+        title:"Jammming Spotify Playlist Maker",
+        link:"https://aaronjammming.surge.sh/",
+        description:"description",
+        descriptionFull:"Jammming is a project I completed in the Codecademy, completing projects in this course as you were helped through difficult stages with small hints, this project is very satisfying as it is getting you to login to your personal account and building playlist and the result playlist is saved in your Spotify account. It was very interesting incorporating the Spotify API and understanding the capabilities of it. This project is all Front-end and is deployed on Surge.sh. There was a few problems I encountered when completing this project mostly because of the Spotify API but thankfully Codecademy was there to help me with hints and review previous lectures and examples."
     },
     {
         id:"003",
         img:"img/Ravenous.png",
-        title:"title",
-        description:"description"
+        imgFull:"img/FullScreenRavenous.png",
+        title:"Ravenous Restaurant Review Site",
+        link:"http://aaron_ravenous.surge.sh/",
+        description:"description",
+        descriptionFull:"Ravenous was the first project I completed while completing the Codecademy web development course, this project allows the user to search for restaurants and cafes by name or area this website uses the Yelp API and returns information on the business. Ravenous is then able to place the business in a business list and is able to be sorted by most reviewed, best matched and highest rated. I enjoyed this as it was the first project that I completed that uses everything that I was learning in the month prior in the Codecademy course, designing components, setting states and passing information through props. Whilst completing Ravenous I began to understand the capabilities of React, even though this is a very small example. "
     },
     {
         id:"004",
-        img:"img/Jammming.png",
-        title:"title",
-        description:"description"
+        img:"img/OnlinePortfolioNew.png",
+        imgFull:"img/FullScreenPortfolioNew.png",
+        title:"Personal Portolio Updated",
+        link:"http://localhost:3000/",
+        description:"description",
+        descriptionFull:"In Adobe InDesign, the lines of type are set, by default, in the best interest of the entire paragraph. As you type or edit a paragraph, InDesign adjusts the line breaks a paragraph at a time, which explains why you may notice text reflowing above the line you are editing. It’s unnerving to see until you understand that you are watching the Adobe Paragraph Composer in action. By using the Adobe Paragraph Composer, you are just about guaranteed to have better word spacing, hyphenation and line breaks than if you turned it off. Take a look at the two paragraphs shown below. Both of the body paragraphs are set to the same typeface, size, style and hyphenation settings. The only difference between them is the composer used to set the line breaks. The one on the left is set with the default Paragraph Composer on, the one on the right is set to the Single-Line Composer. Which one do you think looks better?"
+    },
+    {
+        id:"005",
+        img:"img/OnlinePortfolio.png",
+        imgFull:"img/FullScreenPortfolio.png",
+        title:"Personal Portolio",
+        link:"https://project-portfolio-aaron94.web.app/",
+        description:"description",
+        descriptionFull:"In Adobe InDesign, the lines of type are set, by default, in the best interest of the entire paragraph. As you type or edit a paragraph, InDesign adjusts the line breaks a paragraph at a time, which explains why you may notice text reflowing above the line you are editing. It’s unnerving to see until you understand that you are watching the Adobe Paragraph Composer in action. By using the Adobe Paragraph Composer, you are just about guaranteed to have better word spacing, hyphenation and line breaks than if you turned it off. Take a look at the two paragraphs shown below. Both of the body paragraphs are set to the same typeface, size, style and hyphenation settings. The only difference between them is the composer used to set the line breaks. The one on the left is set with the default Paragraph Composer on, the one on the right is set to the Single-Line Composer. Which one do you think looks better?"
+    },
+    {
+        id:"006",
+        img:"img/OnlineForm.jpg",
+        imgFull:"img/FullScreenForm.png",
+        title:"Online Form",
+        link:"http://formexample.surge.sh/",
+        description:"description",
+        descriptionFull:"In Adobe InDesign, the lines of type are set, by default, in the best interest of the entire paragraph. As you type or edit a paragraph, InDesign adjusts the line breaks a paragraph at a time, which explains why you may notice text reflowing above the line you are editing. It’s unnerving to see until you understand that you are watching the Adobe Paragraph Composer in action. By using the Adobe Paragraph Composer, you are just about guaranteed to have better word spacing, hyphenation and line breaks than if you turned it off. Take a look at the two paragraphs shown below. Both of the body paragraphs are set to the same typeface, size, style and hyphenation settings. The only difference between them is the composer used to set the line breaks. The one on the left is set with the default Paragraph Composer on, the one on the right is set to the Single-Line Composer. Which one do you think looks better?"
     }
 ]
 
@@ -76,6 +103,7 @@ export const portfolioDetail = {
     img:"img/PhoneStore.png",
     imgFull:"img/FullScreenStore.png",
     title:"Phone Store Ecommerce",
+    link:"http://phonestore.surge.sh/",
     descriptionShort:"description",
     descriptionFull:"In Adobe InDesign, the lines of type are set, by default, in the best interest of the entire paragraph. As you type or edit a paragraph, InDesign adjusts the line breaks a paragraph at a time, which explains why you may notice text reflowing above the line you are editing. It’s unnerving to see until you understand that you are watching the Adobe Paragraph Composer in action. By using the Adobe Paragraph Composer, you are just about guaranteed to have better word spacing, hyphenation and line breaks than if you turned it off. Take a look at the two paragraphs shown below. Both of the body paragraphs are set to the same typeface, size, style and hyphenation settings. The only difference between them is the composer used to set the line breaks. The one on the left is set with the default Paragraph Composer on, the one on the right is set to the Single-Line Composer. Which one do you think looks better?",
 }

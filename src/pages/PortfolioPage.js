@@ -15,12 +15,14 @@ export default class PortfolioPage extends Component {
                     <div className="row">
                         <div className="col-10 mx-auto text-center ">
                             <h1 className="title">Portfolio</h1>
+                            
                         </div>
                     </div>
 
                     <div className="row">
                         <div className="col-10 mx-auto text-center p-5">
                             <h4 className="">Click on projects for details</h4>
+                            <h4>All projects were built using the React Library</h4>
                         </div>
                     </div>
 

@@ -3,9 +3,11 @@ import React, { Component } from 'react'
 export default class ContactPage extends Component {
     render() {
         return (
-            <h1>
-               This is the Contact Page 
-            </h1>
+            <div className="mainContainer">
+                <h1>
+                    This page is under construction
+                </h1>
+            </div>
         )
     }
 }
