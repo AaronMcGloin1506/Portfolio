@@ -11,7 +11,7 @@ body {
 .mainContainer{
   color: rgb(185, 178, 178) !important ;
   margin-top: 50px;
-  margin-left: 40px;
+  margin-left: 5%;
   width: 90%;
   height: 530px;
   overflow: scroll;
@@ -75,6 +75,15 @@ body {
 }
 
 .projectImage{
-
   width: 500px;
+}
+
+.success-msg {
+  color: #57A773;
+  padding: 10px 15px;
+}
+
+.err-msg {
+  color: #EE6352;
+  padding: 10px 15px;
 }
